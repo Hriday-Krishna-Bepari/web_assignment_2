@@ -18,7 +18,7 @@ $sql = "INSERT INTO `product`( `name`, `description`, `quantity`, `price`, `expi
 
 
 if(mysqli_query($conn, $sql)){
-  header("Location: http://localhost/samssir/index.php");
+  header("Location: /");
 }
 
 
